@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
-    <h1>Senura Ransika</h1>
-    <p>Welcome to my portfolio! Here you can find information about my projects, skills, and experience.</p>
 
-    <!--About Me-->
     
+    <!--Header-->
+    <div class="namebox">
+    <img src="dp.jpg" alt="Profile Picture" class="profile-pic">
+    <h1 id="main">Senura Ransika</h1>
+    <p id="para1"> Welcome to my portfolio! Here you can find information about my projects, skills, and experience.</p>
+    </div>
+    <br>
+    <!--About Me-->
+    <div class="aboutbox">
         <h2>About Me</h2>
         <p>I am a 23 years old University Student & currently pursuing a degree in Physical Science at University of Sri Jayewardenepura.</p>
+    </div>
+
     <!--Skills-->
-    <h2>Skills</h2>
+    <h2 class="skill-section">Skills</h2>
     <ul>
         <li>Programming Languages: Python, C</li>
         <li>Web Development: HTML</li>
     </ul>
+
     <!--Projects-->
     <h2>Projects</h2>
     <table border="1">
@@ -39,7 +48,8 @@
             <td>C</td>
         </tr>
         </table>
-    <h2>Contact</h2>
+
+    <h2 class="contact-section">Contact</h2>
     <form>
         <label for="name">Name: </label> <br>
         <input type="text" id="name"><br>
@@ -56,7 +66,7 @@
         <footer> <hr>
             <p>Contact me on social media:</p>
 
-        <a href="https://www.facebook.com/senuraransika/">
+        <a href="https://www.i.com/senuraransika/">
         Contact me on Facebook
     </a> <br>
         <a href="https://github.com/SenuraRansika">
